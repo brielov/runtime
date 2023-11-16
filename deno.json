@@ -2,7 +2,4 @@
   "tasks": {
     "dev": "deno run --watch main.ts"
   },
-  "imports": {
-    "oxido": "https://raw.githubusercontent.com/brielov/oxido/master/src/mod.ts"
-  }
 }
