@@ -1,0 +1,8 @@
+{
+  "version": "3",
+  "remote": {
+    "https://raw.githubusercontent.com/brielov/oxido/master/src/mod.ts": "ddc175227de0ed80847f5f085f0fd657711de7f2cd63a2ac79e925e01e7e3e01",
+    "https://raw.githubusercontent.com/brielov/oxido/master/src/option.ts": "07d19547de9e0687ac00fc5933d6b6767f42a4f0279be377029df92266e912f4",
+    "https://raw.githubusercontent.com/brielov/oxido/master/src/result.ts": "1f0007c747d05c692dedbc048ed9de9be9d17cd1233b14b30a2d00ef825b8252"
+  }
+}
