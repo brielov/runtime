@@ -13,7 +13,8 @@ export interface Schema<T> {
   parse(input: unknown): Result<T, ParseError>;
 }
 
-type PlainObject = { [key: PropertyKey]: unknown };
+export type PlainObject = { [key: PropertyKey]: unknown };
+export type Infer<T> = T extends Schema<infer U> ? U : never;
 type Shape<T extends PlainObject> = { [K in keyof T]: Schema<T[K]> };
 
 export interface ObjectSchema<T extends PlainObject> extends Schema<T> {
